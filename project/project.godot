@@ -1,0 +1,22 @@
+; Engine configuration file.
+
+config_version=5
+
+[application]
+
+config/name="Betacade SDK Test"
+config/description="Exercises every call and signal of Blazium's built-in Betacade singleton in a web export."
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=960
+window/size/viewport_height=600
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

@@ -1,0 +1,4 @@
+out/
+project/.godot/
+project/export_presets.cfg
+*.png
